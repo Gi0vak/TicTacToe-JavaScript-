@@ -15,12 +15,12 @@ Option to restart the game: After the end of a game, players can close the popup
 Player turn tracking: The game displays the current player's turn (PHP or JavaScript) on the screen.
 
 ## Technologies Used
-`#0969DA`
-React: a JavaScript library for building interactive user interfaces.
-HTML/CSS: for the structure and styling of the user interface.
-JavaScript: for the game logic and interactions with the user interface.
-vanilla-tilt: used for effects on squares.
-React Modal: for the popup when the game is over.
+	`#RRGGBB`
+  React: a JavaScript library for building interactive user interfaces.
+  HTML/CSS: for the structure and styling of the user interface.
+  JavaScript: for the game logic and interactions with the user interface.
+  vanilla-tilt: used for effects on squares.
+  React Modal: for the popup when the game is over.
 
 ## Prerequisites
 
