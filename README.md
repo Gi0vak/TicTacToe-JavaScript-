@@ -3,33 +3,33 @@
 A simple Tic-Tac-Toe game created using React, 
 allowing two players to play against each other by taking turns to align three identical symbols on a 3x3 game board.
 
-Features
+<h2>Features</h2>
 
     Interactive user interface: Players can click on the squares to place their symbols (PHP or JavaScript) on the game board.
     Automatic win detection: The game automatically detects if any of the players have aligned three identical symbols and displays the result (win, draw, or in progress) on the screen.
     Option to restart the game: After the end of a game, players can choose to restart the game by clicking on a reset button.
     Player turn tracking: The game displays the current player's turn (PHP or JavaScript) on the screen.
 
-##Technologies Used
+<h2>Technologies Used</h2>
 
     React: a JavaScript library for building interactive user interfaces.
     HTML/CSS: for the structure and styling of the user interface.
     JavaScript: for the game logic and interactions with the user interface.
 
-##Prerequisites
+<h2>Prerequisites</h2>
 
 Before being able to run the project, make sure you have the following installed on your machine:
 
     Node.js: to run the React development environment.
     NPM (Node Package Manager): to install and manage project dependencies.
 
-##Installation
+<h2>Installation</h2>
 
     Clone the project from the GitHub repository.
     Navigate to the project directory in your terminal.
     Run the command npm install to install the project dependencies.
 
-##Usage
+<h2>Usage</h2>
 
     Run the command npm start to launch the application in development mode.
     Open your web browser and go to the URL http://localhost:3000 to play the Tic-Tac-Toe game in your browser.
@@ -37,7 +37,7 @@ Before being able to run the project, make sure you have the following installed
     The game will automatically detect if any player has won or if the game is a draw, and display the result on the screen.
     To restart the game, click on the reset button.
 
-##Contribution
+<h2>Contribution</h2>
 
 Contributions are welcome! If you'd like to contribute to this project, please create a pull request with your modifications.
 License
