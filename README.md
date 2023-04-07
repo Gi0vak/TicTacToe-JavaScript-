@@ -1,5 +1,3 @@
-# Tic-Tac-Toe in React
-
 <h1 align="center">Tic-Tac-Toe in React</h1>
 <p align="center">
 <img src="[https://placeholder.image.url](https://placeholder.image.url/)" alt="Tic-Tac-Toe Screenshot" width="800px">
