@@ -1,9 +1,9 @@
-#Tic-Tac-Toe in React
+<h1>Tic-Tac-Toe in React</h1>
 
 A simple Tic-Tac-Toe game created using React, 
 allowing two players to play against each other by taking turns to align three identical symbols on a 3x3 game board.
 
-##Features
+Features
 
     Interactive user interface: Players can click on the squares to place their symbols (PHP or JavaScript) on the game board.
     Automatic win detection: The game automatically detects if any of the players have aligned three identical symbols and displays the result (win, draw, or in progress) on the screen.
