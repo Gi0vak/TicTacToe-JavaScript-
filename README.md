@@ -12,12 +12,12 @@ allowing two players to play against each other by taking turns to align three i
 
 <h2>Technologies Used</h2>
 
-   <p> React: a JavaScript library for building interactive user interfaces.
-    <h3>HTML/CSS</h3>: for the structure and styling of the user interface.
-    <h3>JavaScript</h3>: for the game logic and interactions with the user interface.
+   <h3> React:</h3> a JavaScript library for building interactive user interfaces.
+    <h3>HTML/CSS</h3> for the structure and styling of the user interface.
+    <h3>JavaScript</h3> for the game logic and interactions with the user interface.
     <h3>vanilla-tilt</h3> was used for effects on squares.
-    <h3> React Modal </h3>: for the popup when the game is over.
-</p>
+    <h3> React Modal </h3> for the popup when the game is over.
+
 
 <h2>Prerequisites</h2>
 
