@@ -1,20 +1,22 @@
-Tic-Tac-Toe in React
+#Tic-Tac-Toe in React
 
-A simple Tic-Tac-Toe game created using React, allowing two players to play against each other by taking turns to align three identical symbols on a 3x3 game board.
-Features
+A simple Tic-Tac-Toe game created using React, 
+allowing two players to play against each other by taking turns to align three identical symbols on a 3x3 game board.
+
+##Features
 
     Interactive user interface: Players can click on the squares to place their symbols (PHP or JavaScript) on the game board.
     Automatic win detection: The game automatically detects if any of the players have aligned three identical symbols and displays the result (win, draw, or in progress) on the screen.
     Option to restart the game: After the end of a game, players can choose to restart the game by clicking on a reset button.
     Player turn tracking: The game displays the current player's turn (PHP or JavaScript) on the screen.
 
-Technologies Used
+##Technologies Used
 
     React: a JavaScript library for building interactive user interfaces.
     HTML/CSS: for the structure and styling of the user interface.
     JavaScript: for the game logic and interactions with the user interface.
 
-#Prerequisites
+##Prerequisites
 
 Before being able to run the project, make sure you have the following installed on your machine:
 
@@ -43,6 +45,7 @@ License
 This project is licensed under the MIT License. You can refer to the LICENSE file for more information.
 Author
 
-This project was created by [Your Name] and is available on GitHub at the following link: [Link to GitHub repository]. Feel free to contact me for any questions or suggestions.
+This project was created by Gi0vak and is available on GitHub at the following link: https://github.com/Gi0vak/Morpion-React.git. 
+Feel free to contact me for any questions or suggestions.
 
 This is an example of a README file for a Tic-Tac-Toe project in React, specifying that you need to connect to localhost on port 3000 and that the symbols X and O are replaced with PHP and JavaScript respectively. Feel free to customize the content based on your specific project. Also, remember to update the author information, link to the GitHub repository, and any other relevant information for your project.
