@@ -1,10 +1,17 @@
 # Tic-Tac-Toe in React
 
-Tic-Tac-Toe
+<h1 align="center">Tic-Tac-Toe in React</h1>
+<p align="center">
+<img src="[https://placeholder.image.url](https://placeholder.image.url/)" alt="Tic-Tac-Toe Screenshot" width="800px">
+</p>
 
-A simple Tic-Tac-Toe game created using React, allowing two players to play against each other 
-by taking turns to align three identical 
-symbols on a 3x3 game board.
+<p align="center">
+<em>A simple Tic-Tac-Toe game created using React, allowing two players to play against each other by taking turns to align three identical symbols on a 3x3 game board.</em>
+</p>
+
+<p align="center">
+<img src="[https://placeholder.image.url](https://placeholder.image.url/)" alt="License" width="100px">
+</p>
 
 ## Features
 
