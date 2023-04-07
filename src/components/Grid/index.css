@@ -12,7 +12,8 @@
 
 .message-game {
     font-size: 2rem;
-    margin: 2rem 0;
+    margin: 3rem 0;
+    align-self: center;
 }
 
 .ReactModal__Overlay {
@@ -20,13 +21,15 @@
 }
 
 .ReactModal__Content {
+    display: grid;
+    grid-template-rows: 2fr 3fr;
     background-color: #333333 !important;
     padding: 20px;
     border-radius: 10px;
     text-align: center;
     color: white;
     margin-top: 8vh;
-    /* position: absolute; */
+    position: absolute;
     inset: 40px;
     border: 1px solid rgb(204, 204, 204);
     background: rgb(255, 255, 255);
@@ -37,9 +40,6 @@
 
 }
 
-.ReactModal__Content--after-open {
-    position: sticky !important;
-}
 
 .btn-win {
     font-size: 20px;
@@ -48,6 +48,9 @@
     padding: 1rem 2rem;
     border-radius: 10px;
     border: none;
+    height: 80px;
+    width: 100%;
+    place-self: center;
 }
 
 .score {
@@ -57,7 +60,7 @@
 
 .cols-grid {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: 2fr 1fr 2fr;
 }
 
 .col1 {

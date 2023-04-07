@@ -84,7 +84,6 @@ const Grid = () => {
             <div className="starter">{starter}</div><div>
 
             </div>
-            <aside class='left-aside'><p>{countPHPPlayer}</p></aside>
 
             <div className="Grid">
 
@@ -96,7 +95,6 @@ const Grid = () => {
                     ))
                 }
             </div>
-            <aside class='right-aside'><p>{countJSPlayer}</p></aside>
             <Modal isOpen={modalIsOpen} onRequestClose={closeModal}>
                 <h2 className="message-game">
                     {message}
@@ -115,7 +113,6 @@ const Grid = () => {
             </Modal>
         </>
     );
-
 }
 
 export default Grid;
