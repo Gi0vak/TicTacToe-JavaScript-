@@ -1,0 +1,80 @@
+.Grid {
+    margin-top: 2rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 2rem;
+    background-color: lightblue;
+    border: 20px solid lightblue;
+    border-radius: 12px;
+    box-shadow: 1px 1px 1px 1px lightblue;
+}
+
+.message-game {
+    font-size: 2rem;
+    margin: 2rem 0;
+}
+
+.ReactModal__Overlay {
+    background-color: rgba(0, 0, 0, 0.5) !important;
+}
+
+.ReactModal__Content {
+    background-color: #333333 !important;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+    margin-top: 8vh;
+    /* position: absolute; */
+    inset: 40px;
+    border: 1px solid rgb(204, 204, 204);
+    background: rgb(255, 255, 255);
+    overflow: auto;
+    /* border-radius: 4px; */
+    outline: none;
+    padding: 20px;
+
+}
+
+.ReactModal__Content--after-open {
+    position: sticky !important;
+}
+
+.btn-win {
+    font-size: 20px;
+    background-color: lightblue;
+    color: black;
+    padding: 1rem 2rem;
+    border-radius: 10px;
+    border: none;
+}
+
+.score {
+    font-size: 20px;
+    margin: 2rem 0;
+}
+
+.cols-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.col1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.col3 {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.count {
+    font-size: 20px;
+}
+
+.right-aside {
+    display: flex;
+}

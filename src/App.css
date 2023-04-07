@@ -1,3 +1,5 @@
+@import url('https://fonts.cdnfonts.com/css/games');
+
 .App {
   text-align: center;
 }
@@ -32,7 +34,30 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #fff;
+  display: grid;
+  place-items: center;
+  font-family: 'Games', sans-serif;
+  background-image: url('./assets/louse.jpg');
+  background-position: center;
+  background-repeat: repeat-x;
+  color: black;
+
+}
+
+h1 {
+  font-size: 3rem;
 }

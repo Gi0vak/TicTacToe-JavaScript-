@@ -1,0 +1,23 @@
+.Case {
+    width: 10rem;
+    height: 10rem;
+    background-color: white;
+}
+
+.Case:hover {
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.activeJS {
+    background-image: url('../../assets/js.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.activePHP {
+    background-image: url('../../assets/php.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
