@@ -1,80 +1,90 @@
 .starter {
     margin-top: 1rem;
+    height: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .Grid {
-    margin-top: 2rem;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, 1fr);
     gap: 2rem;
-    background-color: #000000;
-    border: 20px solid #000000;
+    background-color: var(--quaternary-color);
+    border: 20px solid var(--overlay-color);
     border-radius: 12px;
-    box-shadow: 1px 1px 1px 1px #000000;
+    box-shadow: 1px 1px 1px 1px var(--overlay-color);
     width: 100%;
-    height: 37vw;
+    aspect-ratio: 1 / 1;
     margin-bottom: 2rem;
 }
 
 @media screen and (max-width: 1220px) {
     .Grid {
-        height: 40vh;
         gap: 1rem
     }
 }
 
-.message-game {
-    font-size: 2rem;
-    margin: 3rem 0;
-    align-self: center;
+.ReactModal__Overlay {
+    position: fixed;
+    inset: 0px;
+    background-color: rgba(255, 255, 255, 0.75);
+    display: grid;
+    place-items: center;
+    opacity: 0;
+    transition: opacity 300ms ease 0s;
 }
 
-.ReactModal__Overlay {
-    background-color: rgba(0, 0, 0, 0.5) !important;
+.ReactModal__Overlay--after-open {
+    opacity: 1;
+}
+
+.ReactModal__Overlay--before-close {
+    opacity: 0;
 }
 
 .ReactModal__Content {
+    position: sticky !important;
     display: grid;
-    grid-template-rows: 2fr 3fr;
-    background-color: #333333 !important;
-    padding: 20px;
-    border-radius: 10px;
+    grid-template-rows: 8fr 15fr;
+    background-color: var(--quinary-color) !important;
     text-align: center;
-    color: white;
-    margin-top: 8vh;
-    position: absolute;
-    inset: 40px;
-    border: 1px solid rgb(204, 204, 204);
-    background: rgb(255, 255, 255);
-    overflow: auto;
-    /* border-radius: 4px; */
-    outline: none;
-    padding: 20px;
-
+    place-items: center;
+    max-width: 90%;
+    min-height: 300px;
 }
-
 
 .btn-win {
     font-size: 20px;
-    background-color: lightblue;
-    color: black;
+    background-color: var(--secondary-color);
+    color: var(--quaternary-color);
     padding: 1rem 2rem;
     border-radius: 10px;
     border: none;
-    height: 80px;
     width: 100%;
+    max-width: 120px;
     place-self: center;
-}
-
-.score {
-    font-size: 20px;
-    margin: 2rem 0;
+    cursor: pointer;
 }
 
 .cols-grid {
     display: grid;
-    grid-template-columns: 2fr 1fr 2fr;
+    width: 80%;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.score {
+    font-size: 20px;
+}
+
+@media screen and (max-width: 950px) {
+    .cols-grid {
+        flex-direction: column;
+        align-items: center;
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+    }
 }
 
 .col1 {
@@ -85,11 +95,12 @@
 .col3 {
     display: flex;
     flex-direction: column;
-
 }
 
 .count {
+    padding-top: 1rem;
     font-size: 20px;
+    color: var(--tertiary-color);
 }
 
 .right-aside {

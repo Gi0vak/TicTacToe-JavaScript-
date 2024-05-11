@@ -1,5 +1,6 @@
 .Case {
     background-color: white;
+    cursor: pointer;
 }
 
 .Case:hover {
@@ -7,14 +8,14 @@
 }
 
 .activeJS {
-    background-image: url('../../assets/js.png');
+    background-image: url('../../assets/JavaScript-icon.png');
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
 }
 
 .activePHP {
-    background-image: url('../../assets/php.png');
+    background-image: url('../../assets/Php-icon.png');
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;

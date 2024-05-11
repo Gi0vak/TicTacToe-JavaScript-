@@ -9,7 +9,7 @@ const Grid = () => {
     const [xIsNext, setXIsNext] = useState(true);
     const [win, setWin] = useState(false);
     const [message, setMessage] = useState('');
-    const [starter, setStarter] = useState('Au PHP de jouer');
+    const [starter, setStarter] = useState('PHP is Playing');
     const [modalIsOpen, setModalIsOpen] = useState(false);
     const [countJSPlayer, setCountJSPlayer] = useState(0);
     const [countPHPPlayer, setCountPHPPlayer] = useState(0);
@@ -72,19 +72,20 @@ const Grid = () => {
         // console.log(boxesCopy);
         console.log('index null', boxes.indexOf(null));
         if (!xIsNext) {
-            setStarter('Au PHP de jouer');
+            setStarter('PHP is playing');
         } else {
-            setStarter('Au Javascript');
+            setStarter('Javascript is playing');
         }
     }
+
     return (
         <>
-            <p>Javascript or Php ?</p>
-            <div className="starter">{starter}</div><div>
+            <h3>Javascript or Php ?</h3>
+            <div className="starter"><p>{starter}</p></div><div>
 
             </div>
 
-            <div className="Grid">
+            <div className="Grid" >
 
                 {
                     // Boucle de rendu des cases du jeu en utilisant la méthode "map" sur l'état des cases
@@ -94,18 +95,25 @@ const Grid = () => {
                     ))
                 }
             </div>
-            <Modal ariaHideApp={false} isOpen={modalIsOpen} onRequestClose={closeModal}>
-                <h2 className="message-game">
+            <Modal
+                shouldCloseOnOverlayClick={true}
+                ariaHideApp={false}
+                isOpen={modalIsOpen}
+                onRequestClose={closeModal}
+                transparent
+
+            >
+                <h3 className="message-game">
                     {message}
-                </h2>
+                </h3>
                 <div className="cols-grid">
                     <div className='col1 score'>
-                        <h2>Player PHP</h2>
+                        <h3>Player PHP</h3>
                         <div className='count'>{countPHPPlayer}</div>
                     </div>
                     <button className='btn-win' onClick={closeModal}>Close</button>
                     <div className='col3 score'>
-                        <h2>Player JAVASCRIPT</h2>
+                        <h3>Player JAVASCRIPT</h3>
                         <div className='count'>{countJSPlayer}</div>
                     </div>
                 </div>

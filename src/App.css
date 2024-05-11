@@ -1,43 +1,10 @@
-@import url('https://fonts.cdnfonts.com/css/games');
-
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-
-  to {
-    transform: rotate(360deg);
-  }
+:root {
+  --primary-color: #FFFFFF;
+  --secondary-color: #EAEAEC;
+  --tertiary-color: #9EE6BF;
+  --quaternary-color: #FE868A;
+  --quinary-color: #0C516E;
+  --overlay-color: rgba(254, 134, 138, 0.5);
 }
 
 * {
@@ -47,14 +14,12 @@
 }
 
 body {
-  background-color: #E5ECEC;
+  background-color: var(--primary-color);
   display: grid;
   place-items: center;
   font-family: 'Games', sans-serif;
-  color: black;
-  font-size: 16px;
-  color: #c20404;
-
+  font-size: 30px;
+  color: var(--tertiary-color);
 }
 
 .App {
@@ -62,7 +27,23 @@ body {
   place-items: center;
 }
 
+h1 {
+  color: var(--quinary-color)
+}
+
+h2 {
+  color: var(--quaternary-color);
+  font-size: 2rem;
+  width: 12ch;
+  text-align: center;
+}
+
+h3 {
+  color: var(--tertiary-color);
+  font-size: 1em;
+}
+
 p {
+  color: var(--quinary-color);
   font-size: 1.5rem;
-  color: #c20404;
 }
