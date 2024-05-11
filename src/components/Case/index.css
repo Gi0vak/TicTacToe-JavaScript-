@@ -1,6 +1,4 @@
 .Case {
-    width: 10rem;
-    height: 10rem;
     background-color: white;
 }
 
@@ -10,14 +8,14 @@
 
 .activeJS {
     background-image: url('../../assets/js.png');
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
 }
 
 .activePHP {
     background-image: url('../../assets/php.png');
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
 }

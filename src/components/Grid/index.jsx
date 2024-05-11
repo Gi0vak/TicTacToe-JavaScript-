@@ -31,7 +31,6 @@ const Grid = () => {
             [2, 4, 6],
         ];
     const isVictory = () => {
-
         tabWin.forEach(line => {
             setWin(false)
             const [a, b, c] = line;
@@ -80,7 +79,7 @@ const Grid = () => {
     }
     return (
         <>
-            <p>Javascript ou PhP ?</p>
+            <p>Javascript or Php ?</p>
             <div className="starter">{starter}</div><div>
 
             </div>
@@ -95,7 +94,7 @@ const Grid = () => {
                     ))
                 }
             </div>
-            <Modal isOpen={modalIsOpen} onRequestClose={closeModal}>
+            <Modal ariaHideApp={false} isOpen={modalIsOpen} onRequestClose={closeModal}>
                 <h2 className="message-game">
                     {message}
                 </h2>
