@@ -26,6 +26,12 @@
     }
 }
 
+@media screen and (max-width:400px) {
+    .Grid {
+        gap: 0.5rem
+    }
+}
+
 .ReactModal__Overlay {
     position: fixed;
     inset: 0px;

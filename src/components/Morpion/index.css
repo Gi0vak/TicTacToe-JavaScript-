@@ -23,3 +23,9 @@
         width: 60vw;
     }
 }
+
+@media screen and (max-width:400px) {
+    .morpion-container {
+        width: 80vw;
+    }
+}
