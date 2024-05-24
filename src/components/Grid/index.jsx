@@ -1,8 +1,8 @@
-import './index.css';
-import Case from '../Case';
 import { useEffect, useState } from 'react';
 import Modal from 'react-modal';
+import Case from '../Case';
 import { Colors } from '../../constants/Colors';
+import './index.css';
 const Grid = () => {
     // État local pour les cases du jeu
     const [boxes, setBoxes] = useState(Array(9).fill(null));

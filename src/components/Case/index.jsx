@@ -1,6 +1,6 @@
-import './index.css';
-import VanillaTilt from 'vanilla-tilt';
 import { useEffect, useRef } from 'react';
+import VanillaTilt from 'vanilla-tilt';
+import './index.css';
 
 
 function Tilt(props) {

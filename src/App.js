@@ -1,6 +1,5 @@
-import './App.css';
-
 import Morpion from './components/Morpion';
+import './App.css';
 
 function App() {
 
