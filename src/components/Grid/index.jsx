@@ -2,6 +2,7 @@ import './index.css';
 import Case from '../Case';
 import { useEffect, useState } from 'react';
 import Modal from 'react-modal';
+import { Colors } from '../../constants/Colors';
 const Grid = () => {
     // État local pour les cases du jeu
     const [boxes, setBoxes] = useState(Array(9).fill(null));
@@ -85,7 +86,12 @@ const Grid = () => {
 
             </div>
 
-            <div className="Grid" >
+            <div className="Grid"
+                style={{
+                    backgroundColor: Colors.tertiary,
+                    borderColor: Colors.tertiary,
+                    boxShadow: '0px 0px 5px 0px ' + Colors.tertiary
+                }}>
 
                 {
                     // Boucle de rendu des cases du jeu en utilisant la méthode "map" sur l'état des cases
@@ -103,17 +109,17 @@ const Grid = () => {
                 transparent
 
             >
-                <h3 className="message-game">
+                <p className="message-game">
                     {message}
-                </h3>
+                </p>
                 <div className="cols-grid">
                     <div className='col1 score'>
-                        <h3>Player PHP</h3>
+                        <h3>PHP</h3>
                         <div className='count'>{countPHPPlayer}</div>
                     </div>
                     <button className='btn-win' onClick={closeModal}>Close</button>
                     <div className='col3 score'>
-                        <h3>Player JAVASCRIPT</h3>
+                        <h3>JAVASCRIPT</h3>
                         <div className='count'>{countJSPlayer}</div>
                     </div>
                 </div>
