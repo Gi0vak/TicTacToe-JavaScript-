@@ -5,8 +5,8 @@ import JavascriptIcon from '../../../assets/JavaScript-icon.png'
 const CodeLanguageImage = ({ code }) => {
   const styles = {
     image: {
-      width: '80px',
-      height: '80px',
+      width: '80%',
+      height: '80%',
     },
   }
 

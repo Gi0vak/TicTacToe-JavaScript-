@@ -5,12 +5,16 @@ import CodeLanguageImage from './CodeLanguageImage';
 
 
 function Tilt(props) {
-    const { options, ...rest } = props;
+    const { options, mobileOptions, ...rest } = props;
     const tilt = useRef(null);
 
     useEffect(() => {
-        VanillaTilt.init(tilt.current, options);
-    }, [options]);
+        const isMobile = window.innerWidth <= 768;
+        const appliedOptions = isMobile ? mobileOptions : options;
+
+        VanillaTilt.init(tilt.current, appliedOptions);
+    }, [options, mobileOptions]);
+
     return <button ref={tilt} {...rest} />;
 }
 
