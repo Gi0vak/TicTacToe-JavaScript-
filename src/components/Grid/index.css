@@ -59,6 +59,7 @@
     place-items: center;
     max-width: 90%;
     min-height: 300px;
+    width: 80%;
 }
 
 .btn-win {
@@ -107,6 +108,7 @@
 .count {
     font-size: 20px;
     color: var(--tertiary-color);
+    padding-top: 3rem;
 }
 
 .right-aside {

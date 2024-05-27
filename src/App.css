@@ -50,7 +50,7 @@ h1 {
 }
 
 h3 {
-  font-size: clamp(1.5rem, 5vw, 2.5rem);
+  font-size: clamp(1.5rem, 3vw, 2.5rem);
   color: var(--quaternary-color);
   text-shadow: 0 0 5px rgba(0, 0, 0, 0.3), 0 0 10px rgba(12, 81, 110, 0.75);
 }
