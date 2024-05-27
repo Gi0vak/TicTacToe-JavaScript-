@@ -112,3 +112,7 @@
 .right-aside {
     display: flex;
 }
+
+.message-game {
+    font-size: 14px;
+}
